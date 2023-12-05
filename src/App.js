@@ -5,11 +5,13 @@ import Tag from "./components/Tag";
 function App() {
   return (
     <div className="w-full h-screen flex flex-col background relative overflow-x-hidden items-center">
-      <h1 className="bg-white rounded-lg w-11/12 text-center mt-[40px] 
-      px-10 text-4xl font-bold">
+      <h1
+        className="bg-white rounded-lg w-11/12 text-center mt-[40px] 
+      px-10 text-4xl font-bold"
+      >
         Random Gifs
       </h1>
-      <div className="flex flex-col">
+      <div className="flex flex-col w-full items-center ">
         <Random />
         <Tag />
       </div>
